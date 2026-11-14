@@ -1,0 +1,6 @@
+# Example MCP settings for an isolated HERMES_HOME profile.
+# The shipped setup script runs `hermes mcp add` instead so existing profile entries are preserved.
+mcp_servers:
+  weavz:
+    url: https://platform.weavz.io/mcp/weavz
+    auth: oauth
